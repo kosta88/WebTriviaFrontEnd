@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Carter+One');
+
+  .Top-Header{
+    margin: 0;
+    font-style: italic;
+    font-weight: bolder;
+    font-family: "Carter One", cursive;
+  }
+  .navbar-custom {
+    background-image: linear-gradient(to top, #8b749c, #9377a8, #8b749c, #8867a0, #816596);  width: inherit;
+    /* border: 0.01em solid #2f3c7e; */
+    color: black;
+    border-bottom: 0.5px solid #7b5d91;
+  }
+
+  .Top-Header-Div{
+    background-image: linear-gradient(to bottom, #8b749c, #9377a8, #8b749c, #8867a0, #816596);  width: inherit;
+    width: inherit;
+    top: 0;
+    position: sticky;
+  }
+
+.main-background {
+  background-image: linear-gradient(to bottom, #fbeaeb, #dab6c2, #a595a1, #7b5d91, #2f3c7e);  width: inherit;
+  min-height: 100vh;
+  height: max-content;
+  text-align: center;
+}
+
+.banner-text {
+  overflow: hidden;
+  border-radius: 20%;
+  background-color: #27221f;
+  width: fit-content;
+  margin: auto;
+  margin-top: 1em;
+  border: 1px solid #4c1211;
+  color: white;
+  padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+/* .Top-Header:hover{
+  margin: 0;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: initial;
+  padding: 1%;
+  font-size: 120%;
+} */
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Container{
+  width: 100vw;
+  min-height: 100vh;
+}
